@@ -1,9 +1,11 @@
 import './App.css';
-
+import { CardComponent } from './Component';
 function App() {
   return (
     <div className="App">
-      Cooking Mama
+      <CardComponent/>
+      <CardComponent/>
+
     </div>
   );
 }
