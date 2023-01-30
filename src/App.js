@@ -4,9 +4,8 @@ function App() {
   return (
     <div className="App">
       <InfoComponent/>
-      <CardComponent/>
-      <CardComponent/>
-
+      <CardComponent firstname="Kevin" ofici="Pastiser" shortdesc="lorem ipsum do aitem"/>
+      <CardComponent firstname="Raul" ofici="Flequer" shortdesc="zelver or latsum oinet"/>
     </div>
   );
 }
