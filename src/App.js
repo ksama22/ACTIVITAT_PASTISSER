@@ -1,8 +1,9 @@
 import './App.css';
-import { CardComponent } from './Component';
+import { InfoComponent, CardComponent } from './Component';
 function App() {
   return (
     <div className="App">
+      <InfoComponent/>
       <CardComponent/>
       <CardComponent/>
 
